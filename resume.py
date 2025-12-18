@@ -49,7 +49,6 @@ skills
 projects
 qualification
 build resume in impressive way
-donot mention any extra lines in starting
 
 """
 
@@ -59,4 +58,5 @@ donot mention any extra lines in starting
         st.success("Resume Generated Successfully")
 
         st.subheader("📑 Generated Resume")
-        st.write("Resume Output", response.text)
+
+        st.write(response.text)
